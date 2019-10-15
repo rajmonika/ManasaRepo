@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]" parallel="tests">
+  <parameter name="browserName" value="Firefox"/>
+  <test name="TestOnFirefox(failed)" parallel="tests">
+    <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="TestNGConcepts.MultipleBrowserParallel">
+        <methods>
+          <include name="Close"/>
+          <include name="googleTitle"/>
+          <include name="SetUp"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- TestNGConcepts.MultipleBrowserParallel -->
+    </classes>
+  </test> <!-- TestOnFirefox(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

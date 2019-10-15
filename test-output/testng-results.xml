@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50560" started-at="2019-10-10T16:17:46Z" finished-at="2019-10-10T16:18:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="50560" started-at="2019-10-10T16:17:46Z" finished-at="2019-10-10T16:18:36Z">
+      <class name="TestNGConcepts.DataProviderDemo">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:TestNGConcepts.DataProviderDemo@6a41eaa2]" name="SetUp" is-config="true" duration-ms="12093" started-at="2019-10-10T21:47:46Z" finished-at="2019-10-10T21:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:TestNGConcepts.DataProviderDemo@6a41eaa2]" name="test1" duration-ms="11047" started-at="2019-10-10T21:48:00Z" data-provider="test1Data" finished-at="2019-10-10T21:48:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:TestNGConcepts.DataProviderDemo@6a41eaa2]" name="test1" duration-ms="8389" started-at="2019-10-10T21:48:11Z" data-provider="test1Data" finished-at="2019-10-10T21:48:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:TestNGConcepts.DataProviderDemo@6a41eaa2]" name="test1" duration-ms="7832" started-at="2019-10-10T21:48:20Z" data-provider="test1Data" finished-at="2019-10-10T21:48:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin2345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:TestNGConcepts.DataProviderDemo@6a41eaa2]" name="test1" duration-ms="8383" started-at="2019-10-10T21:48:28Z" data-provider="test1Data" finished-at="2019-10-10T21:48:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin3456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- TestNGConcepts.DataProviderDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
