@@ -47,6 +47,12 @@ public class AnnotationsOrder {
   public void PageLogo() {
 	  System.out.println("Test 3 - Validate Page Logo");
   }
+  
+  @Test
+  public void demo()
+  {
+	  System.out.println("GIT tag demo");
+  }
 
  
   @AfterMethod
